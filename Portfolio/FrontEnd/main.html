@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Thaana:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+    <div class="blur-background">
+        <div class="PopUp-container">
+            <div class="content">
+                <h2>Get in Touch</h2>
+                <i id="closepopUp" class="fa-solid fa-xmark"></i>
+            </div>
+                <form action="https://api.web3forms.com/submit" method="POST" class="content">
+                 <input type="hidden" name="access_key" value="bbe5761d-3cf6-45fc-af7a-c65c0c0e66ce">
+                <input id="clientEmail" type="email" name="email" placeholder="Enter your email" required>
+                <div class="textarea-container">
+                    <textarea name="message" required id="clientMsg" placeholder="Enter your message" required></textarea>
+                    <p id="limitMsg">Sender</p>
+                </div>
+                
+                <button type="submit">Send Now <i class="fa-solid fa-location-arrow"></i></button>
+                </form>
+               
+            <div class="content">
+                <div class="profile"></div>
+                <span>
+                    <p>Erick Jasper B. Vidal</p>
+                    <p>Frontend Web Developer</p>
+                </span>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="MAIN-CONTAINER">
+
+         <div class="Section" style="grid-area: box-0">
+        <input type="text" placeholder="search about me...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="Section" style="grid-area: box-1">
+        <div class="Profile-container">
+            <div class="profile-picture" style="grid-area: profile-1"></div>
+            <div class="profile-titles" style="grid-area: profile-2">
+                <h3>Erick Jasper B. Vidal <div class="mode-container"></div></h3>
+                <p><i class="fa-brands fa-dev"></i>FrontEnd Web Developer</p>   
+                <button>Download my resume <i class="fa-solid fa-download"></i></button>
+            </div>
+            
+            <div class="profile-moreInfo" style="grid-area: profile-3">
+                <span><i class="fa-solid fa-location-dot"></i> <p>Santa Rosa, Laguna, Philippines</p></span>
+                <span><i class="fa-solid fa-clock"></i> <p>Philippine Time</p> <p id="time">10:45 Pm</p></span>
+                <button id="hireMe">Hire me!</button>
+            </div>
+              
+        </div>
+    </div>
+
+    <div class="Section" style="grid-area: box-2">
+        <div class="container" >
+            <div class="main-content" style="grid-area: box-1">
+                Tech Stack
+            </div>
+            <div class="main-content" style="grid-area: box-2">
+                <div class="tech-container">
+                <p><span>HTML5</span></p>
+                <p><span>CSS3</span></p>
+                <p><span>Tailwind</span></p>
+                <p><span>React.js</span></p>
+                <p><span>JavaScript</span></p>
+                <p><span>PHP</span></p>
+                </div>
+                <div class="tech-container">
+                <p><span>GitHub</span></p>
+                <p><span>Git</span></p>
+                <p><span>Figma</span></p>
+                <p><span>Canva</span></p>
+                </div>
+            </div>
+            <div class="main-content" style="grid-area: box-3"></div>
+        </div>
+        
+
+        <div class="container">
+            <di class="header" style="grid-area: box-0">
+                <p>Sample Project's</p>
+            </di>
+            <div class="content" style="grid-area: box-1">
+                <div class="project-container">
+                    <p>Coffee Shop Website</p>
+                    <span class="dis">A warm and inviting space where every cup tells a story crafted for coffee lovers who enjoy quality, comfort, and good company.</span>
+                <span class="visit">visit now <i class="fa-solid fa-location-arrow"></i></span>
+                </div>
+            </div>
+            <div class="content" style="grid-area: box-2">
+                <div class="project-container">
+                    <p>Analytics Website</p>
+                    <span class="dis">A clean and intuitive hub for turning raw numbers into clear insightsperfect for reports, trends, and smart decision-makin///</span>
+                <span class="visit">visit now <i class="fa-solid fa-location-arrow"></i></span>
+                </div>
+            </div>
+            <div class="content" style="grid-area: box-3">
+                <div class="project-container">
+                    <p>Health Website</p>
+                    <span class="dis">A reliable and professional health space built to inform, guide, and support users seeking accurate medical information.</span>
+               <span class="visit">visit now <i class="fa-solid fa-location-arrow"></i></span>
+                </div>
+            </div>
+            <div class="content" style="grid-area: box-4">
+                <div class="project-container">
+                    <p>Fitness Website</p>
+                    <span class="dis">A modern fitness platform designed to motivate your journey offering training guidance, workout insights.</span>
+                <span class="visit">visit now <i class="fa-solid fa-location-arrow"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Section" style="grid-area: box-3">
+        <p>About me</p>
+        <p>I’m a passionate Front-End Web Developer dedicated to creating interactive, user-friendly websites that help businesses engage their audience and grow online. I specialize in turning design ideas into clean, responsive, and visually appealing interfaces using HTML, CSS, and JavaScript. 
+            <br>By combining creativity with functionality, I can help make your website not only look great but also drive results and keep your visitors coming back.</p>
+            <div class="AboutMe-response">
+                <button><i class="fa-regular fa-thumbs-up"></i></button>
+                <button><i class="fa-regular fa-thumbs-down"></i></button>
+                <span id="new-comment"><i class="fa-regular fa-comment"></i> comment</span>
+            </div>
+            <div class="comment-main-container">
+                <div class="header">
+                    <span><i class="fa-regular fa-comment"></i> comment section</span>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class="comment-container-child">
+                    <div class="comment-content">
+                        <div class="comment">
+                       Your passion really shows in your work! I love how clean and responsive your designs are. You clearly know how to blend creativity with functionality. Keep it up businesses will definitely benefit from what you do!
+                        <p class="username">Marianne Cruz</p>
+                        </div>
+                        <div class="comment">
+                            Ganda ng approach mo, bro. Straight to the point pero very professional. The way you focus on user-friendly and visually appealing interfaces is exactly what modern websites need. Solid skills!
+                        <p class="username">Joshua Ramirez</p>
+                        </div>
+                        <div class="comment">
+                            Impressive intro! It’s clear you care about helping businesses grow through well-designed websites. Your skillset in HTML, CSS, and JavaScript really shows you create sites that are both beautiful and effective.
+                        <p class="username">Alyssa Navarro</p>
+                        </div>
+                    </div>
+                    <div class="comment-content">
+                        <input autocomplete="off" id="userName" type="text" placeholder="Your name..">
+                        <input autocomplete="off" id="comment-input" type="text" placeholder="comment...">
+                        <span id="send-comment"><i class="fa-solid fa-location-arrow"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="Section" style="grid-area: box-4">
+        <div class="content" style="grid-area: box-1">Contact</div>
+
+        <div class="content" style="grid-area: box-3">
+            <div  class="container accContainer">
+                <div class="account"><i class="fa-solid fa-envelope"></i><p>Google GMAIL</p><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="account"><i class="fa-solid fa-envelope"></i><p>facebook FB</p><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="account"><i class="fa-solid fa-envelope"></i><p>Twitter X</p><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="account"><i class="fa-solid fa-envelope"></i><p>GitHub</p><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="account"><i class="fa-solid fa-envelope"></i><p>Gcash</p><i class="fa-solid fa-arrow-right"></i></div>  
+                <div class="account"><i class="fa-solid fa-envelope"></i><p>Paypal</p><i class="fa-solid fa-arrow-right"></i></div>           
+            </div>
+        </div>
+
+        <div class="content" style="grid-area: box-5">
+            <button id="hireMe2">Get in touch</button>
+        </div>
+    </div>
+
+
+   <div class="Section" style="grid-area: box-5">
+    <div class="mini-service">
+        <i class="fa-solid fa-paintbrush"></i>
+        <p class="title">Clean UI / UX</p>
+        <span>I design clean, modern, and easy-to-use interfaces that feel natural to users.</span>
+    </div>
+
+    <div class="mini-service">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <p class="title">Responsive Design</p>
+        <span>Layouts that adapt smoothly across desktop, tablet, and mobile screens.</span>
+    </div>
+
+    <div class="mini-service">
+        <i class="fa-solid fa-bolt"></i>
+        <p class="title">Fast & Interactive</p>
+        <span>Smooth animations, clean logic, and performance-focused frontend builds.</span>
+    </div>
+</div>
+
+    <div class="Section footer" style="grid-area: box-6">
+    <div class="footer-left">
+        <p>© 2025 All Rights Reserved</p>
+        <span>Frontend Web Developer Portfolio</span>
+    </div>
+
+    <div class="footer-center">
+        <p>Built with HTML, CSS & JavaScript</p>
+        <span>Designed for clean UI, performance, and responsiveness</span>
+    </div>
+
+    <div class="footer-right">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-envelope"></i>
+    </div>
+</div>
+
+
+   
+   
+
+
+    <script src="function.js"></script>
+</body>
+</html>
