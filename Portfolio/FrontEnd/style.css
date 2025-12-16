@@ -997,7 +997,7 @@ body.active .mini-service:hover{
     display: grid;
     height: 100%;
     grid-template-columns: 1fr; 
-    grid-template-rows:40px 250px 1000px 290px 250px 300px 100px;
+    grid-template-rows:40px 250px 1000px 260px 250px 300px 100px;
     grid-template-areas: 
     "box-0"
     "box-1"
@@ -1020,7 +1020,7 @@ body.active .mini-service:hover{
     align-items: center;
     height: 10px;
     width: 100%;
-    font-size: 11px;
+    font-size: 16px;
 }
 .profile-titles p{
     font-size: 10px;
@@ -1098,7 +1098,7 @@ body.active .mini-service:hover{
 .Section:nth-child(4) p:nth-child(2){
     width: 90%;
     text-align: justify;
-    font-size: 10px;
+    font-size: 11px;
     margin: auto;
     line-height: 19px;
 }
@@ -1128,7 +1128,7 @@ body.active .mini-service:hover{
 }
 .PopUp-container input{
     width: 90%;
-    height: 30px;
+    height: 50px;
 }
 .PopUp-container .textarea-container{
     width: 90%;
@@ -1139,3 +1139,4 @@ body.active .mini-service:hover{
 }
 
 }
+
